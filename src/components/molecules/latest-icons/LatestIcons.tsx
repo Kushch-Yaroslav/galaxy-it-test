@@ -7,7 +7,7 @@ import {
     Digital,
     ItContractor,
     Marketing,
-} from 'src/components/icons'
+} from '@/components/icons'
 
 type IconComponentProps = {
     width?: number

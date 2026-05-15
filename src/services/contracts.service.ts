@@ -11,4 +11,10 @@ export default class ContractsService {
 
         return res.data
     }
+
+    public static async searchContracts(query: string): Promise<Contract[]> {
+        const res = await $API.post<ContractsResponse>('/api/search', { query })
+
+        return res.data
+    }
 }

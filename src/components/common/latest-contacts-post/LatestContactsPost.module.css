@@ -1,6 +1,5 @@
 .section {
     width: 100%;
-    overflow: hidden;
 }
 
 .carouselWrapper {
@@ -10,8 +9,30 @@
     overflow: hidden;
 }
 
+.gridWrapper {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.emptyState {
+    margin-top: 24px;
+    padding: 48px 24px;
+    border-radius: 32px;
+    background: var(--color-gray-light);
+    color: var(--color-gray-primary);
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
 @media (min-width: 768px) {
-    .carouselWrapper {
+    .carouselWrapper,
+    .gridWrapper,
+    .emptyState {
         margin-top: 32px;
+    }
+
+    .emptyState {
+        padding: 64px 32px;
     }
 }

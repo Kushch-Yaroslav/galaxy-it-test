@@ -1,3 +1,4 @@
+import type { MouseEvent } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import sublogo from '../../../../public/img/icons/sub-logo.svg'
@@ -5,7 +6,7 @@ import style from './Logo.module.css'
 
 type LogoProps = {
     href: string
-    onClick?: () => void
+    onClick?: (event: MouseEvent<HTMLAnchorElement>) => void
 }
 
 function Logo({ href, onClick }: LogoProps) {
