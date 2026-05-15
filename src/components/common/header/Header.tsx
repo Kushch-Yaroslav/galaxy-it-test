@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import style from './Header.module.css'
-import sublogo from '@/public/img/icons/sub-logo.svg'
+import sublogo from '../../../../public/img/icons/sub-logo.svg'
 import { usePathname } from 'next/navigation'
 
 export default function Header() {

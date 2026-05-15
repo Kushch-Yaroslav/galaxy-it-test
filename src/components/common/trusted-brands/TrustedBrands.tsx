@@ -1,6 +1,6 @@
 import style from './TrustedBrands.module.css'
 import Image from "next/image";
-import brands from '@/public/img/brands/trustedBrands.png'
+import brands from '../../../../public/img/brands/trustedBrands.png'
 
 export default function TrustedBrands() {
     return(

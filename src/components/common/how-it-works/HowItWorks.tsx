@@ -2,9 +2,9 @@ import Image from 'next/image'
 import SectionHeader from '@/components/ui/section-header/SectionHeader'
 import Container from '@/components/ui/container/Container'
 import style from './HowItWorks.module.css'
-import step1Image from '@/public/img/card/step1.png'
-import step2Image from '@/public/img/card/step2.png'
-import step3Image from '@/public/img/card/step3.png'
+import step1Image from '../../../../public/img/card/step1.png'
+import step2Image from '../../../../public/img/card/step2.png'
+import step3Image from '../../../../public/img/card/step3.png'
 
 const cards = [
     {

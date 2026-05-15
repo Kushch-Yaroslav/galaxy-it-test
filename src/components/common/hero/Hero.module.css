@@ -7,9 +7,9 @@
     padding: 160px 16px 72px;
     border-radius: 0;
     background-image: image-set(
-        url('../../../public/img/fon/hero/hero.avif') type('image/avif'),
-        url('../../../public/img/fon/hero/hero.webp') type('image/webp'),
-        url('../../../public/img/fon/hero/hero.png') type('image/png')
+            '/img/fon/hero/hero.avif' type('image/avif'),
+            '/img/fon/hero/hero.webp' type('image/webp'),
+            '/img/fon/hero/hero.png' type('image/png')
     );
     background-position: center;
     background-repeat: no-repeat;
