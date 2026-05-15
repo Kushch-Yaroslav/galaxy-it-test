@@ -1,0 +1,80 @@
+.logo {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    width: fit-content;
+    min-height: 24px;
+    padding-left: 18px;
+    flex-shrink: 0;
+}
+
+.logoIcon {
+    position: absolute;
+    top: -2px;
+    left: 11px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoSvg {
+    width: 16px;
+    height: 15px;
+}
+
+.logoText {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--color-text-main);
+}
+
+@media (min-width: 768px) {
+    .logoIcon {
+        top: -5px;
+        left: 9px;
+    }
+
+    .logoSvg {
+        width: 20px;
+        height: 19px;
+    }
+
+    .logoText {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .logo {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        width: fit-content;
+        flex-shrink: 0;
+        transform: translateY(5px);
+        min-height: 0;
+        padding-left: 0;
+    }
+
+    .logoIcon {
+        position: absolute;
+        top: -8px;
+        left: -10px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 23px;
+        height: 23px;
+    }
+
+    .logoSvg {
+        width: 24px;
+        height: 23px;
+    }
+
+    .logoText {
+        font-size: 30px;
+    }
+}

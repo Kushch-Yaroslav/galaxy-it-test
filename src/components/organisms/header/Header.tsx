@@ -1,15 +1,18 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import style from './Header.module.css'
-import sublogo from '../../../../public/img/icons/sub-logo.svg'
-import { usePathname } from 'next/navigation'
+import Logo from '@/components/ui/logo/Logo'
+
+const navLinks = [
+    { href: '/#home', label: 'Home' },
+    { href: '/#how-it-works', label: 'How It Works' },
+    { href: '/#latest-contracts-post', label: 'Latest Contracts Post' },
+    { href: '/#people-loved-us', label: 'People Loved us!' },
+] as const
 
 export default function Header() {
-    const pathname = usePathname()
-    const isSearchPage = pathname.startsWith('/search')
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
     const closeMenu = () => setIsMenuOpen(false)
@@ -27,18 +30,7 @@ export default function Header() {
 
             <header className={style.header}>
                 <div className={style.topRow}>
-                    <Link href="/public" className={style.logo} onClick={closeMenu}>
-                        <span className={style.logoIcon}>
-                            <Image
-                                src={sublogo}
-                                alt=""
-                                width={24}
-                                height={23}
-                                className={style.logoSvg}
-                            />
-                        </span>
-                        <h1 className={style.logoText}>TEST TASK</h1>
-                    </Link>
+                    <Logo href="/#home" onClick={closeMenu} />
 
                     <button
                         type="button"
@@ -59,20 +51,11 @@ export default function Header() {
                     className={`${style.menuPanel} ${isMenuOpen ? style.menuPanelOpen : ''}`}
                 >
                     <nav className={style.nav}>
-                        <Link href="/public" onClick={closeMenu}>
-                            Home
-                        </Link>
-                        <Link href="/public" onClick={closeMenu}>
-                            How It Works
-                        </Link>
-                        <Link href="/public" onClick={closeMenu}>
-                            Latest Contracts Post
-                        </Link>
-                        {isSearchPage && (
-                            <Link href="/public" onClick={closeMenu}>
-                                People Loved us!
+                        {navLinks.map(({ href, label }) => (
+                            <Link key={href} href={href} onClick={closeMenu}>
+                                {label}
                             </Link>
-                        )}
+                        ))}
                     </nav>
 
                     <div className={style.actions}>

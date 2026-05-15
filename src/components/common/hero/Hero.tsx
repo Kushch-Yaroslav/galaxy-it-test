@@ -1,9 +1,9 @@
-import SearchBar from '../../organisms/search-bar/SearchBar'
 import style from './Hero.module.css'
+import SearchBar from "@/components/molecules/search-bar/SearchBar";
 
 export default function Hero() {
     return (
-        <section className={style.hero}>
+        <section id="home" className={style.hero}>
             <div className={style.overlay} />
             <div className={style.content}>
                 <h1 className={style.title}>Run Your Business</h1>

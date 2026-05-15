@@ -35,32 +35,36 @@ const cards = [
 
 export default function HowItWorks() {
     return (
-        <Container>
-            <SectionHeader
-                title='How It Works'
-                subtitle='Search and connect with the right companies faster'
-            />
-            <div className={style.cardWrapper}>
-                {cards.map((card) => (
-                    <article className={style.card} key={card.step}>
-                        <Image
-                            src={card.image}
-                            alt={card.title}
-                            className={style.cardImage}
-                            loading="lazy"
-                        />
-                        <div className={style.cardOverlay}/>
-                        <div className={style.cardContent}>
-                            <span className={style.step}>{card.step}</span>
-                            <h3 className={style.cardTitle}>{card.title}</h3>
-                            <p className={style.cardDescription}
-                               style={{maxWidth: card.textWidth}}
-                            >
-                                {card.description}</p>
-                        </div>
-                    </article>
-                ))}
-            </div>
-        </Container>
+        <section id="how-it-works">
+            <Container>
+                <SectionHeader
+                    title='How It Works'
+                    subtitle='Search and connect with the right companies faster'
+                />
+                <div className={style.cardWrapper}>
+                    {cards.map((card) => (
+                        <article className={style.card} key={card.step}>
+                            <Image
+                                src={card.image}
+                                alt={card.title}
+                                className={style.cardImage}
+                                loading="lazy"
+                            />
+                            <div className={style.cardOverlay} />
+                            <div className={style.cardContent}>
+                                <span className={style.step}>{card.step}</span>
+                                <h3 className={style.cardTitle}>{card.title}</h3>
+                                <p
+                                    className={style.cardDescription}
+                                    style={{ maxWidth: card.textWidth }}
+                                >
+                                    {card.description}
+                                </p>
+                            </div>
+                        </article>
+                    ))}
+                </div>
+            </Container>
+        </section>
     )
 }
