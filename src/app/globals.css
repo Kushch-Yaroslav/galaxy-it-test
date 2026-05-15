@@ -2,8 +2,8 @@
   --color-text-main: #1E1E1E;
   --color-primary: #0935FE;
   --color-header-dark: #18181B;
-
-
+  --color-black-secondary: #27272A;
+  --color-gray-light: #F6F6F6;
   --color-black-primary: #231F20;
   --color-gray-primary: #00000080;
   --color-blue: #235DFC;
@@ -13,6 +13,7 @@
   --color-black: #000000;
 
   --gradient-primary: linear-gradient(314.32deg, #0935FE -7.64%, #98EEFF 210.72%);
+  --hover-fon-icons: #1A51FC;
 
   --color-black-50: rgba(0, 0, 0, 0.5);
 }

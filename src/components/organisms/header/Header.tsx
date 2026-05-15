@@ -27,7 +27,7 @@ export default function Header() {
 
             <header className={style.header}>
                 <div className={style.topRow}>
-                    <Link href="/" className={style.logo} onClick={closeMenu}>
+                    <Link href="/public" className={style.logo} onClick={closeMenu}>
                         <span className={style.logoIcon}>
                             <Image
                                 src={sublogo}
@@ -59,17 +59,17 @@ export default function Header() {
                     className={`${style.menuPanel} ${isMenuOpen ? style.menuPanelOpen : ''}`}
                 >
                     <nav className={style.nav}>
-                        <Link href="/" onClick={closeMenu}>
+                        <Link href="/public" onClick={closeMenu}>
                             Home
                         </Link>
-                        <Link href="/" onClick={closeMenu}>
+                        <Link href="/public" onClick={closeMenu}>
                             How It Works
                         </Link>
-                        <Link href="/" onClick={closeMenu}>
+                        <Link href="/public" onClick={closeMenu}>
                             Latest Contracts Post
                         </Link>
                         {isSearchPage && (
-                            <Link href="/" onClick={closeMenu}>
+                            <Link href="/public" onClick={closeMenu}>
                                 People Loved us!
                             </Link>
                         )}

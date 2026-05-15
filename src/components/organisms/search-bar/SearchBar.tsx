@@ -1,4 +1,4 @@
-import { SearchIcon } from '@/components/icons'
+import { SearchIcon } from 'src/components/icons'
 import style from './SearchBar.module.css'
 
 export default function SearchBar() {

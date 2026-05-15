@@ -1,1 +1,8 @@
 export { default as SearchIcon } from './SearchIcon'
+export { default as Accountancy } from './Accountancy'
+export { default as Banking } from './Banking'
+export { default as ContentWriter } from './ContentWriter'
+export { default as Digital } from './Digital'
+export { default as ItContractor } from './ItContractor'
+export { default as Marketing } from './Marketing'
+export { default as Marks } from './Marks'

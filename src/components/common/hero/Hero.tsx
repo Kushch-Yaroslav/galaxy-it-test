@@ -1,4 +1,4 @@
-import SearchBar from '@/components/common/search-bar/SearchBar'
+import SearchBar from '../../organisms/search-bar/SearchBar'
 import style from './Hero.module.css'
 
 export default function Hero() {
