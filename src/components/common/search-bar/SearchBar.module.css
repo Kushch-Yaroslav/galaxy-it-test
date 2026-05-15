@@ -1,0 +1,110 @@
+.searchBar {
+    display: flex;
+    gap: 12px;
+    width: min(100%, 960px);
+    margin-top: 32px;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 24px 60px rgba(18, 14, 76, 0.12);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+}
+
+.inputWrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    min-width: 0;
+}
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+    opacity: 0.95;
+    flex-shrink: 0;
+}
+
+.input {
+    width: 100%;
+    min-width: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: var(--color-white);
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.82);
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    width: clamp(150px,40vw,300px);
+    padding: 0 24px;
+    border: 0;
+    border-radius: 999px;
+    background: var(--gradient-primary);
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.button:hover {
+    transform: scale(1.02);
+}
+
+@media (min-width: 768px) {
+    .searchBar {
+        flex-direction: row;
+        align-items: center;
+        gap: 18px;
+        margin-top: 34px;
+        padding: 12px 14px 12px 22px;
+    }
+
+    .input {
+        font-size: 18px;
+    }
+
+    .button {
+        width: auto;
+        min-width: 180px;
+        min-height: 58px;
+        padding: 0 34px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .searchBar {
+        margin-top: 28px;
+        padding: 10px 10px 10px 36px;
+    }
+
+    .inputWrap {
+        gap: 12px;
+    }
+
+    .input {
+        font-size: 17px;
+    }
+
+    .button {
+        min-width: 140px;
+        min-height: 60px;
+        padding: 15px 33px;
+        font-size: 18px;
+    }
+}
