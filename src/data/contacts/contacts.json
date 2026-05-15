@@ -1,0 +1,312 @@
+[
+  {
+    "id": 1,
+    "company": "Intel",
+    "image": "/img/brands/intel.svg",
+    "title": "Contract: Multi-Year Custom Software Development",
+    "budget": "$400,000 / Year",
+    "duration": "3 Years",
+    "tags": ["Long-Term"],
+    "description": "Searching for a reliable development partner for enterprise-grade software solutions. Collaboration includes design, development, and ongoing maintenance.",
+    "category": "IT Contractor"
+  },
+  {
+    "id": 2,
+    "company": "Meta",
+    "image": "/img/brands/meta.svg",
+    "title": "Contract: Annual Cybersecurity & Threat Monitoring",
+    "budget": "$120,000 / Annual Contract",
+    "duration": "12 Months | Renewable",
+    "tags": ["Annual Contract", "Verified"],
+    "description": "Looking for an IT security partner to manage firewalls, intrusion detection, and ongoing risk assessments for corporate infrastructure.",
+    "category": "IT Contractor"
+  },
+  {
+    "id": 3,
+    "company": "Plaid",
+    "image": "/img/brands/other.svg",
+    "title": "Contract: Monthly Cloud Infrastructure Hosting",
+    "budget": "$42,000 / One-Time Supply",
+    "duration": "2 Months",
+    "tags": ["Bulk Order", "Verified"],
+    "description": "Looking for a supplier to deliver 150 laptops and docking stations for a corporate office setup. Delivery required within 60 days.",
+    "category": "IT Contractor"
+  },
+  {
+    "id": 4,
+    "company": "Merci",
+    "image": "/img/brands/other.svg",
+    "title": "Contract: Infrastructure Monitoring & Support",
+    "budget": "$9,000 / Month",
+    "duration": "12 Months",
+    "tags": ["Recurring Service"],
+    "description": "Seeking a partner to provide secure and scalable monthly hosting for enterprise applications. Must ensure 99.9% uptime and technical support.",
+    "category": "IT Contractor"
+  },
+  {
+    "id": 5,
+    "company": "Adobe",
+    "image": "/img/brands/other.svg",
+    "title": "Contract: Creative Platform UI Redesign",
+    "budget": "$85,000 / Project",
+    "duration": "5 Months",
+    "tags": ["Design System", "Verified"],
+    "description": "Looking for a digital team to redesign key user flows, improve accessibility, and modernize the interface for a creative SaaS platform.",
+    "category": "Digital & Creative"
+  },
+  {
+    "id": 6,
+    "company": "Stripe",
+    "image": "/img/brands/other.svg",
+    "title": "Contract: Payment Gateway Integration",
+    "budget": "$65,000 / Project",
+    "duration": "4 Months",
+    "tags": ["Fintech", "Verified"],
+    "description": "Seeking developers to integrate secure payment flows, subscription billing, and transaction monitoring for a growing fintech product.",
+    "category": "Banking"
+  },
+  {
+    "id": 7,
+    "company": "Notion",
+    "image": "/img/brands/other.svg",
+    "title": "Contract: Content Knowledge Base Migration",
+    "budget": "$24,000 / Project",
+    "duration": "3 Months",
+    "tags": ["Content", "Migration"],
+    "description": "Looking for a content specialist to migrate documentation, structure internal knowledge, and improve team collaboration workflows.",
+    "category": "Content Writer"
+  },
+  {
+    "id": 8,
+    "company": "Shopify",
+    "image": "/img/brands/other.svg",
+    "title": "Contract: E-Commerce Analytics Dashboard",
+    "budget": "$72,000 / Project",
+    "duration": "6 Months",
+    "tags": ["Analytics", "Long-Term"],
+    "description": "Searching for a contractor to build dashboards for sales, inventory, and customer behavior analytics across multiple stores.",
+    "category": "IT Contractor"
+  },
+  {
+    "id": 9,
+    "company": "Deloitte",
+    "image": "/img/brands/other.svg",
+    "title": "Contract: Financial Reporting Automation",
+    "budget": "$110,000 / Year",
+    "duration": "12 Months",
+    "tags": ["Accounting", "Verified"],
+    "description": "Looking for a team to automate financial reporting, reconcile data sources, and improve monthly closing workflows.",
+    "category": "Accountancy"
+  },
+  {
+    "id": 10,
+    "company": "Spotify",
+    "image": "/img/brands/other.svg",
+    "title": "Contract: Marketing Campaign Landing Pages",
+    "budget": "$38,000 / Campaign",
+    "duration": "2 Months",
+    "tags": ["Marketing", "Creative"],
+    "description": "Seeking a marketing partner to design and launch landing pages for seasonal campaigns with tracking and conversion optimization.",
+    "category": "Marketing & Pr"
+  },
+  {
+    "id": 11,
+    "company": "Figma",
+    "image": "/img/brands/other.svg",
+    "title": "Contract: Design System Documentation",
+    "budget": "$32,000 / Project",
+    "duration": "3 Months",
+    "tags": ["Documentation", "Design System"],
+    "description": "Looking for a specialist to document reusable UI components, usage rules, and collaboration processes for product teams.",
+    "category": "Digital & Creative"
+  },
+  {
+    "id": 12,
+    "company": "Amazon",
+    "image": "/img/brands/other.svg",
+    "title": "Contract: Cloud Cost Optimization Audit",
+    "budget": "$55,000 / Project",
+    "duration": "2 Months",
+    "tags": ["Cloud", "Verified"],
+    "description": "Seeking a technical contractor to review cloud infrastructure, identify overspending, and prepare recommendations for cost reduction.",
+    "category": "IT Contractor"
+  },
+  {
+    "id": 13,
+    "company": "Revolut",
+    "image": "/img/brands/other.svg",
+    "title": "Contract: Banking Compliance Dashboard",
+    "budget": "$96,000 / Project",
+    "duration": "6 Months",
+    "tags": ["Banking", "Compliance"],
+    "description": "Looking for a development team to build internal dashboards for compliance checks, transaction review, and operational reporting.",
+    "category": "Banking"
+  },
+  {
+    "id": 14,
+    "company": "Canva",
+    "image": "/img/brands/other.svg",
+    "title": "Contract: Social Media Template Production",
+    "budget": "$18,000 / Month",
+    "duration": "6 Months",
+    "tags": ["Content", "Creative"],
+    "description": "Seeking content creators to produce branded social templates, campaign visuals, and reusable assets for marketing teams.",
+    "category": "Content Writer"
+  },
+  [
+    {
+      "id": 15,
+      "company": "Microsoft",
+      "image": "/img/brands/other.svg",
+      "title": "Contract: Enterprise CRM Customization",
+      "budget": "$150,000 / Project",
+      "duration": "8 Months",
+      "tags": ["Enterprise", "Long-Term"],
+      "description": "Looking for a development partner to customize CRM workflows, automate client communication, and integrate reporting tools for sales teams.",
+      "category": "IT Contractor"
+    },
+    {
+      "id": 16,
+      "company": "Oracle",
+      "image": "/img/brands/other.svg",
+      "title": "Contract: Database Migration & Optimization",
+      "budget": "$130,000 / Project",
+      "duration": "5 Months",
+      "tags": ["Database", "Verified"],
+      "description": "Seeking engineers to migrate legacy databases, optimize query performance, and prepare a scalable data storage architecture.",
+      "category": "IT Contractor"
+    },
+    {
+      "id": 17,
+      "company": "Netflix",
+      "image": "/img/brands/other.svg",
+      "title": "Contract: Video Content Metadata Writing",
+      "budget": "$22,000 / Month",
+      "duration": "4 Months",
+      "tags": ["Content", "Remote"],
+      "description": "Looking for content writers to prepare metadata, summaries, and categorization notes for a large media content library.",
+      "category": "Content Writer"
+    },
+    {
+      "id": 18,
+      "company": "PayPal",
+      "image": "/img/brands/other.svg",
+      "title": "Contract: Fraud Detection Reporting Tool",
+      "budget": "$95,000 / Project",
+      "duration": "6 Months",
+      "tags": ["Fintech", "Security"],
+      "description": "Seeking a team to build internal reporting tools for fraud patterns, transaction risks, and payment dispute monitoring.",
+      "category": "Banking"
+    },
+    {
+      "id": 19,
+      "company": "Airbnb",
+      "image": "/img/brands/other.svg",
+      "title": "Contract: Hospitality Marketing Campaign",
+      "budget": "$48,000 / Campaign",
+      "duration": "3 Months",
+      "tags": ["Marketing", "Verified"],
+      "description": "Looking for a marketing partner to create campaign assets, landing pages, and conversion-focused messaging for seasonal travel offers.",
+      "category": "Marketing & Pr"
+    },
+    {
+      "id": 20,
+      "company": "Slack",
+      "image": "/img/brands/other.svg",
+      "title": "Contract: Team Collaboration Onboarding Content",
+      "budget": "$16,000 / Project",
+      "duration": "2 Months",
+      "tags": ["Content", "Onboarding"],
+      "description": "Seeking a content specialist to write onboarding guides, product tutorials, and internal communication templates for business users.",
+      "category": "Content Writer"
+    },
+    {
+      "id": 21,
+      "company": "Zoom",
+      "image": "/img/brands/other.svg",
+      "title": "Contract: Video Meeting Analytics Module",
+      "budget": "$78,000 / Project",
+      "duration": "4 Months",
+      "tags": ["Analytics", "SaaS"],
+      "description": "Looking for developers to build analytics views for meeting quality, user engagement, and enterprise usage patterns.",
+      "category": "IT Contractor"
+    },
+    {
+      "id": 22,
+      "company": "Tesla",
+      "image": "/img/brands/other.svg",
+      "title": "Contract: Internal Fleet Maintenance Dashboard",
+      "budget": "$125,000 / Project",
+      "duration": "7 Months",
+      "tags": ["Dashboard", "Long-Term"],
+      "description": "Seeking a software contractor to build a dashboard for fleet maintenance tracking, service scheduling, and operational reports.",
+      "category": "IT Contractor"
+    },
+    {
+      "id": 23,
+      "company": "Uber",
+      "image": "/img/brands/other.svg",
+      "title": "Contract: Regional Campaign Performance Audit",
+      "budget": "$34,000 / Project",
+      "duration": "2 Months",
+      "tags": ["Marketing", "Analytics"],
+      "description": "Looking for a marketing analyst to review regional campaign performance, user acquisition costs, and conversion funnels.",
+      "category": "Marketing & Pr"
+    },
+    {
+      "id": 24,
+      "company": "JPMorgan Chase",
+      "image": "/img/brands/other.svg",
+      "title": "Contract: Risk Management Reporting System",
+      "budget": "$180,000 / Year",
+      "duration": "12 Months",
+      "tags": ["Banking", "Compliance"],
+      "description": "Seeking a contractor to improve internal risk reporting, automate financial checks, and create executive-level dashboards.",
+      "category": "Banking"
+    },
+    {
+      "id": 25,
+      "company": "PwC",
+      "image": "/img/brands/other.svg",
+      "title": "Contract: Audit Documentation Review",
+      "budget": "$28,000 / Project",
+      "duration": "3 Months",
+      "tags": ["Accounting", "Audit"],
+      "description": "Looking for accounting specialists to review audit documentation, structure financial records, and prepare compliance summaries.",
+      "category": "Accountancy"
+    },
+    {
+      "id": 26,
+      "company": "Dribbble",
+      "image": "/img/brands/other.svg",
+      "title": "Contract: Brand Identity Refresh",
+      "budget": "$41,000 / Project",
+      "duration": "3 Months",
+      "tags": ["Branding", "Creative"],
+      "description": "Seeking a creative team to refresh brand visuals, update presentation assets, and prepare a lightweight design guide.",
+      "category": "Digital & Creative"
+    },
+    {
+      "id": 27,
+      "company": "Mailchimp",
+      "image": "/img/brands/other.svg",
+      "title": "Contract: Email Automation Campaign Setup",
+      "budget": "$26,000 / Campaign",
+      "duration": "2 Months",
+      "tags": ["Email", "Marketing"],
+      "description": "Looking for a specialist to configure automated email campaigns, segment audiences, and prepare performance tracking reports.",
+      "category": "Marketing & Pr"
+    },
+    {
+      "id": 28,
+      "company": "Dropbox",
+      "image": "/img/brands/other.svg",
+      "title": "Contract: Document Workflow Optimization",
+      "budget": "$58,000 / Project",
+      "duration": "4 Months",
+      "tags": ["Workflow", "Enterprise"],
+      "description": "Seeking a contractor to improve document approval flows, file organization, and team collaboration processes for enterprise clients.",
+      "category": "IT Contractor"
+    }
+  ]
+]

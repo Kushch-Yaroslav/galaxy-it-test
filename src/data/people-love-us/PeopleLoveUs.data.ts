@@ -2,7 +2,7 @@ import peterAvatar from "../../../public/img/people/Peter.png";
 import carolAvatar from "../../../public/img/people/Carol.png";
 import marthaAvatar from "../../../public/img/people/Martha.png";
 import cookAvatar from "../../../public/img/people/Cook.png";
-import {Card} from "@/data/people-love-us/peopleLoveUs.types";
+import {Card} from "./PeopleLoveUs.types";
 
 export const cards: Card[] = [
     {
