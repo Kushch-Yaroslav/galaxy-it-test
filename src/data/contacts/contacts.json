@@ -2,7 +2,7 @@
   {
     "id": 1,
     "company": "Intel",
-    "image": "/img/brands/intel.svg",
+    "image": "/img/brands/intel.png",
     "title": "Contract: Multi-Year Custom Software Development",
     "budget": "$400,000 / Year",
     "duration": "3 Years",
@@ -15,7 +15,7 @@
   {
     "id": 2,
     "company": "Meta",
-    "image": "/img/brands/meta.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Annual Cybersecurity & Threat Monitoring",
     "budget": "$120,000 / Annual Contract",
     "duration": "12 Months | Renewable",
@@ -29,7 +29,7 @@
   {
     "id": 3,
     "company": "Plaid",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/plaid.png",
     "title": "Contract: Monthly Cloud Infrastructure Hosting",
     "budget": "$42,000 / One-Time Supply",
     "duration": "2 Months",
@@ -43,7 +43,7 @@
   {
     "id": 4,
     "company": "Merci",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/merci.png",
     "title": "Contract: Infrastructure Monitoring & Support",
     "budget": "$9,000 / Month",
     "duration": "12 Months",
@@ -56,7 +56,7 @@
   {
     "id": 5,
     "company": "Adobe",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Creative Platform UI Redesign",
     "budget": "$85,000 / Project",
     "duration": "5 Months",
@@ -70,7 +70,7 @@
   {
     "id": 6,
     "company": "Stripe",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Payment Gateway Integration",
     "budget": "$65,000 / Project",
     "duration": "4 Months",
@@ -84,7 +84,7 @@
   {
     "id": 7,
     "company": "Notion",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Content Knowledge Base Migration",
     "budget": "$24,000 / Project",
     "duration": "3 Months",
@@ -98,7 +98,7 @@
   {
     "id": 8,
     "company": "Shopify",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: E-Commerce Analytics Dashboard",
     "budget": "$72,000 / Project",
     "duration": "6 Months",
@@ -112,7 +112,7 @@
   {
     "id": 9,
     "company": "Deloitte",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Financial Reporting Automation",
     "budget": "$110,000 / Year",
     "duration": "12 Months",
@@ -126,7 +126,7 @@
   {
     "id": 10,
     "company": "Spotify",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Marketing Campaign Landing Pages",
     "budget": "$38,000 / Campaign",
     "duration": "2 Months",
@@ -140,7 +140,7 @@
   {
     "id": 11,
     "company": "Figma",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Design System Documentation",
     "budget": "$32,000 / Project",
     "duration": "3 Months",
@@ -154,7 +154,7 @@
   {
     "id": 12,
     "company": "Amazon",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Cloud Cost Optimization Audit",
     "budget": "$55,000 / Project",
     "duration": "2 Months",
@@ -168,7 +168,7 @@
   {
     "id": 13,
     "company": "Revolut",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Banking Compliance Dashboard",
     "budget": "$96,000 / Project",
     "duration": "6 Months",
@@ -182,7 +182,7 @@
   {
     "id": 14,
     "company": "Canva",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Social Media Template Production",
     "budget": "$18,000 / Month",
     "duration": "6 Months",
@@ -196,7 +196,7 @@
   {
     "id": 15,
     "company": "Microsoft",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Enterprise CRM Customization",
     "budget": "$150,000 / Project",
     "duration": "8 Months",
@@ -210,7 +210,7 @@
   {
     "id": 16,
     "company": "Oracle",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Database Migration & Optimization",
     "budget": "$130,000 / Project",
     "duration": "5 Months",
@@ -224,7 +224,7 @@
   {
     "id": 17,
     "company": "Netflix",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Video Content Metadata Writing",
     "budget": "$22,000 / Month",
     "duration": "4 Months",
@@ -238,7 +238,7 @@
   {
     "id": 18,
     "company": "PayPal",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Fraud Detection Reporting Tool",
     "budget": "$95,000 / Project",
     "duration": "6 Months",
@@ -252,7 +252,7 @@
   {
     "id": 19,
     "company": "Airbnb",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Hospitality Marketing Campaign",
     "budget": "$48,000 / Campaign",
     "duration": "3 Months",
@@ -266,7 +266,7 @@
   {
     "id": 20,
     "company": "Slack",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Team Collaboration Onboarding Content",
     "budget": "$16,000 / Project",
     "duration": "2 Months",
@@ -280,7 +280,7 @@
   {
     "id": 21,
     "company": "Zoom",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Video Meeting Analytics Module",
     "budget": "$78,000 / Project",
     "duration": "4 Months",
@@ -294,7 +294,7 @@
   {
     "id": 22,
     "company": "Tesla",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Internal Fleet Maintenance Dashboard",
     "budget": "$125,000 / Project",
     "duration": "7 Months",
@@ -308,7 +308,7 @@
   {
     "id": 23,
     "company": "Uber",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Regional Campaign Performance Audit",
     "budget": "$34,000 / Project",
     "duration": "2 Months",
@@ -322,7 +322,7 @@
   {
     "id": 24,
     "company": "JPMorgan Chase",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Risk Management Reporting System",
     "budget": "$180,000 / Year",
     "duration": "12 Months",
@@ -336,7 +336,7 @@
   {
     "id": 25,
     "company": "PwC",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Audit Documentation Review",
     "budget": "$28,000 / Project",
     "duration": "3 Months",
@@ -350,7 +350,7 @@
   {
     "id": 26,
     "company": "Dribbble",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Brand Identity Refresh",
     "budget": "$41,000 / Project",
     "duration": "3 Months",
@@ -364,7 +364,7 @@
   {
     "id": 27,
     "company": "Mailchimp",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Email Automation Campaign Setup",
     "budget": "$26,000 / Campaign",
     "duration": "2 Months",
@@ -378,7 +378,7 @@
   {
     "id": 28,
     "company": "Dropbox",
-    "image": "/img/brands/other.svg",
+    "image": "/img/brands/meta.png",
     "title": "Contract: Document Workflow Optimization",
     "budget": "$58,000 / Project",
     "duration": "4 Months",

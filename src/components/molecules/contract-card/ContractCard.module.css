@@ -1,0 +1,115 @@
+.card {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: min(425px, 100%);
+    min-height: 425px;
+    padding: 25px 20px 55px 30px;
+    border-radius: 32px;
+    background: var(--color-gray-light);
+    overflow: visible;
+}
+
+.logoWrap {
+    min-height: 36px;
+}
+
+.logo {
+    display: block;
+    max-width: 100px;
+    width: auto;
+    height: 36px;
+    object-fit: contain;
+    object-position: left center;
+}
+
+.logoFallback {
+    display: inline-flex;
+    align-items: center;
+    min-height: 36px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.title {
+    margin-top: 28px;
+    color: var(--color-black-primary);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.budget {
+    margin-top: 18px;
+    color: var(--color-black-primary);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.duration {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+    color: var(--color-gray-primary);
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.clock {
+    flex-shrink: 0;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 28px;
+    padding: 0 18px;
+    border: 1.5px solid currentColor;
+    border-radius: 999px;
+    background: transparent;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+
+.tagDefault {
+    color: var(--color-blue);
+}
+
+.tagVerified {
+    color: var(--color-success);
+}
+
+.description {
+    display: -webkit-box;
+    overflow: hidden;
+    color: var(--color-gray-primary);
+    font-size: 15px;
+    line-height: 24px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+}
+
+.arrow {
+    position: absolute;
+    right: -10px;
+    bottom: -20px;
+    line-height: 0;
+    z-index: 1;
+}

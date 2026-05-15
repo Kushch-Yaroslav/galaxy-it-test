@@ -1,4 +1,5 @@
 export { default as SearchIcon } from './SearchIcon'
+export { default as ClockIcon } from './ClockIcon'
 export { default as Accountancy } from './Accountancy'
 export { default as Banking } from './Banking'
 export { default as ContentWriter } from './ContentWriter'
