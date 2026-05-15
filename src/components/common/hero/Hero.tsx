@@ -6,7 +6,7 @@ export default function Hero() {
         <section className={style.hero}>
             <div className={style.overlay} />
             <div className={style.content}>
-                <h2 className={style.title}>Run Your Business</h2>
+                <h1 className={style.title}>Run Your Business</h1>
                 <p className={style.subtitle}>
                     Find better suppliers. Secure real contracts. Build lasting partnerships.
                 </p>

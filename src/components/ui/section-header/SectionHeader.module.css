@@ -1,0 +1,26 @@
+.title {
+    text-align: center;
+    font-size: clamp(25px, 5vw, 40px);
+    line-height: 1.2;
+    font-weight: 600;
+    color: var(--color-black-primary);
+}
+.subtitle{
+    display: block;
+    text-align: center;
+    color: var(--color-gray-primary);
+    font-size: clamp(14px, 2vw, 18px);
+    line-height: 24px;
+}
+
+
+@media (min-width: 1100px) {
+    .title {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .subtitle{
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

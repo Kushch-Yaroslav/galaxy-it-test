@@ -9,6 +9,7 @@
     font-size: clamp(20px, 4vw, 35px);
     line-height: 1.2;
     font-weight: 600;
+    color: var(--color-black-primary);
 }
 
 .brands {
