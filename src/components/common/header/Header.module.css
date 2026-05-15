@@ -1,0 +1,355 @@
+.header {
+    position: fixed;
+    top: 21px;
+    right: 16px;
+    left: 16px;
+    z-index: 1000;
+    padding: 14px 16px;
+    border-radius: 28px;
+    background:
+        radial-gradient(circle at 42% 50%, rgba(110, 142, 255, 0.42) 0, rgba(110, 142, 255, 0.18) 22%, rgba(110, 142, 255, 0) 46%),
+        linear-gradient(90deg, #eef1fb 0%, #dbe0ff 28%, #86b8f8 66%, #9de7ea 100%);
+}
+
+.topRow {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.logo {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    width: fit-content;
+    min-height: 24px;
+    padding-left: 18px;
+    flex-shrink: 0;
+}
+
+.logoIcon {
+    position: absolute;
+    top: -2px;
+    left: 11px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoSvg {
+    width: 16px;
+    height: 15px;
+}
+
+.logoText {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--color-text-main);
+}
+
+.menuToggle {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(24, 73, 255, 0.2);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.34);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: var(--color-primary);
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.menuToggle:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.menuToggle:active {
+    transform: scale(0.98);
+}
+
+.menuLine {
+    display: block;
+    width: 18px;
+    height: 2px;
+    border-radius: 999px;
+    background: currentColor;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.menuToggle[aria-expanded='true'] .menuLine:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+
+.menuToggle[aria-expanded='true'] .menuLine:nth-child(2) {
+    opacity: 0;
+}
+
+.menuToggle[aria-expanded='true'] .menuLine:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+}
+
+.menuPanel {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-height: 0;
+    margin-top: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
+    transition: max-height 0.3s ease, margin-top 0.3s ease, opacity 0.25s ease, transform 0.25s ease;
+}
+
+.menuPanelOpen {
+    max-height: 480px;
+    margin-top: 16px;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.nav a {
+    color: var(--color-header-dark);
+    transition: color 0.2s ease;
+}
+
+.nav a:hover {
+    color: var(--color-primary);
+}
+
+.nav > a:first-child {
+    color: var(--color-primary);
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    width: 100%;
+}
+
+.login {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid var(--color-primary);
+    border-radius: 999px;
+    color: var(--color-header-dark);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.login:hover {
+    color: var(--color-primary);
+}
+
+.signUp {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid var(--color-primary);
+    border-radius: 999px;
+    color: var(--color-primary);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    transition: transform 0.2s ease;
+}
+
+.signUp:hover {
+    transform: scale(1.01);
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    border: 0;
+    background: rgba(15, 23, 42, 0.18);
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .logoIcon {
+        top: -5px;
+        left: 9px;
+    }
+    .logoSvg {
+        width: 20px;
+        height: 19px;
+    }
+
+    .header {
+        right: 24px;
+        left: 24px;
+        padding: 16px 20px;
+        border-radius: 34px;
+    }
+
+    .logoText {
+        font-size: 22px;
+    }
+
+    .menuPanelOpen {
+        margin-top: 18px;
+    }
+
+    .nav {
+        font-size: 17px;
+    }
+
+    .login,
+    .signUp {
+        font-size: 17px;
+    }
+
+    .actions {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 16px;
+    }
+
+    .login,
+    .signUp {
+        width: auto;
+    }
+}
+
+@media (min-width: 1100px) {
+    .logoSvg {
+        width: 24px;
+        height: 23px;
+    }
+
+    .header {
+        top: 21px;
+        right: 40px;
+        left: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        padding: 12px 20px 12px 28px;
+        border-radius: 60px;
+    }
+
+    .topRow {
+        position: static;
+        display: block;
+    }
+
+    .logo {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        width: fit-content;
+        flex-shrink: 0;
+        transform: translateY(5px);
+        min-height: 0;
+        padding-left: 0;
+    }
+
+    .logoIcon {
+        position: absolute;
+        top: -8px;
+        left: -10px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 23px;
+        height: 23px;
+    }
+
+    .logoText {
+        font-size: 30px;
+    }
+
+    .menuToggle {
+        display: none;
+    }
+
+    .menuPanel {
+        display: contents;
+        max-height: none;
+        margin-top: 0;
+        overflow: visible;
+        opacity: 1;
+        transform: none;
+        pointer-events: auto;
+    }
+
+    .nav {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        font-size: 18px;
+    }
+
+    .actions {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 24px;
+        width: auto;
+        flex-shrink: 0;
+    }
+
+    .login,
+    .signUp {
+        font-size: 15px;
+    }
+
+    .login {
+        display: inline;
+        width: auto;
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    .signUp {
+        width: auto;
+        padding: 8px 20px;
+    }
+
+    .overlay {
+        display: none;
+    }
+}
