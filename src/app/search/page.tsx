@@ -3,6 +3,7 @@ import LatestContactsPost from '@/components/common/latest-contacts-post/LatestC
 import ContractsService from '@/services/contracts.service'
 import styles from './SearchPage.module.css'
 import Container from "@/components/ui/container/Container";
+import AnimatedSection from "@/components/ui/animated-section/AnimatedSection";
 
 interface SearchPageProps {
     searchParams?: {
@@ -16,14 +17,18 @@ export default async function SearchPage({searchParams}: SearchPageProps) {
 
     return (
         <section className={styles.wrapper}>
-            <Hero initialSearchValue={query}/>
-            <Container>
-                <LatestContactsPost
-                    variant="search"
-                    searchQuery={query}
-                    contracts={contracts}
-                />
-            </Container>
+            <AnimatedSection>
+                <Hero initialSearchValue={query}/>
+            </AnimatedSection>
+            <AnimatedSection delay={0.05}>
+                <Container>
+                    <LatestContactsPost
+                        variant="search"
+                        searchQuery={query}
+                        contracts={contracts}
+                    />
+                </Container>
+            </AnimatedSection>
         </section>
     )
 }
